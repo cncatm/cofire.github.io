@@ -3,7 +3,7 @@ description: My Personal Stack Problems
 author: NoFly
 github: https://github.com/cofire
 about: I am freelance developer. Currently doing more in backend, actually in Python and Django.
-disqus_shortname: stackproblems
+disqus_shortname: NoFly
 google_analytics: UA-XXXXXXXX-Y
 
 enableTags: true
@@ -40,12 +40,12 @@ urls:
     - text: XML Feed
       url: /feed.xml
 
-url: "https://cofire.github.io"
+url: "http:/nofly.cc"
 baseurl: ""
 paginate: 20
 per_page: 20
 paginate_path: "/page:num/"
 markdown: kramdown
 gems:
-  - jekyll-paginate
-  - jekyll-gist
+  - nofly-paginate
+  - nofly-gist
