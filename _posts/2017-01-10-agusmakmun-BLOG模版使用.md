@@ -16,5 +16,8 @@ https://github.com/cofire/cofire.github.io
 3.新建profile，命名为nickName.github.io（nickName为你的git名称）。
 
 4.先将你的profile download到本地（建议D盘），然后将下载的模版解压到此文件夹中。例如：```D:\PHPnow\htdocs\cofire.github.io```
-5.修改blog的作者名称和头像、网站的LOGO：
+
+![模版目录](https://raw.githubusercontent.com/cofire/cofire.github.io/master/img/0.png)
+
+5.修改blog的作者名称和头像、网站的LOGO：打开```~\cofire.github.io\static\img```文件夹，用你自己的图片替换```avatar.jpg```和```favicon.ico```，图片名称不用改。打开```~\cofire.github.io\index.html```将第六行```<h1>NoFly</h1>```改为```<h1>NickName</h1>```；打开```~\cofire.github.io\_config.yml```将第一行和第六行```title: NoFly```和```author: NoFly```修改为```title: nickName```和```author: nickName```。
 
