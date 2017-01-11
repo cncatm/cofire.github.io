@@ -34,7 +34,7 @@ urls:
     - text: About Me
       url: /about/
     - text: Projects
-      url: /projects/
+      url: https://github.com/cofire
     - text: Github
       url: https://github.com/cofire
     - text: XML Feed
