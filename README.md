@@ -8,3 +8,4 @@
 
 人之一生，贵在坚持。
 
+![网站截图](https://raw.githubusercontent.com/cofire/cofire.github.io/master/static/img/screenshot-post-page.png "网站截图")
