@@ -33,10 +33,12 @@ share:
 urls:
     - text: About Me
       url: /about/
-    - text: Projects
-      url: https://github.com/cofire
     - text: Github
       url: https://github.com/cofire
+    - text: navSite
+      url: http://jimuyehua.com
+    - text: profile
+      url: http://jimuyehua.com/introduction/liying.html
     - text: XML Feed
       url: /feed.xml
 
