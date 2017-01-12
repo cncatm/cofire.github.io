@@ -36,7 +36,7 @@ urls:
     - text: Github
       url: https://github.com/cofire
     - text: navSite
-      url: /navSite
+      url: /navSite/
     - text: profile
       url: /navSite/introduction/liying.html
     - text: XML Feed
