@@ -16,7 +16,7 @@ https://github.com/cofire/cofire.github.io
 
 4.先将你的profile download到本地（建议D盘），然后将下载的模版解压到此文件夹中。例如：```D:\PHPnow\htdocs\cofire.github.io```
 
-![模版目录](https://raw.githubusercontent.com/cofire/cofire.github.io/master/img/others/1/0.png "模版目录")
+![模版目录](https://raw.githubusercontent.com/cofire/cofire.github.io/master/img/website/1/0.png "模版目录")
 
 5.修改blog的作者名称和头像、网站的LOGO：打开```~\cofire.github.io\static\img```文件夹，用你自己的图片替换```avatar.jpg```和```favicon.ico```，图片名称不用改。打开```~\cofire.github.io\index.html```将第六行```<h1>NoFly</h1>```改为```<h1>NickName</h1>```；打开```~\cofire.github.io\_config.yml```将第一行和第六行```title: NoFly```和```author: NoFly```修改为```title: nickName```和```author: nickName```。
 
@@ -50,4 +50,4 @@ https://github.com/cofire/cofire.github.io
 13.若觉得二级域名不好看，你可以自己申请一个域名，然后解析上去。详情点击[GithubPages绑定域名](http://nofly.cc/git/2017/01/10/GithubPages%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D.html "绑定域名")。
 14.一个博客网站就完成了。成品如下：
 
-![网站成品](https://raw.githubusercontent.com/cofire/cofire.github.io/master/img/others/1/1.png "网站成品")
+![网站成品](https://raw.githubusercontent.com/cofire/cofire.github.io/master/img/website/1/1.png "网站成品")
