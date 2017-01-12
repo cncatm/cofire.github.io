@@ -33,8 +33,8 @@ share:
 urls:
     - text: About Me
       url: /about/
-    - text: diary
-      url: /diary/
+    - text: Projects
+      url: https://github.com/cofire
     - text: Github
       url: https://github.com/cofire
     - text: XML Feed
