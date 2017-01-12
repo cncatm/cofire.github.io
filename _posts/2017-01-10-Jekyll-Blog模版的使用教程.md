@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "BLOG模板的使用教程"
+title:  "Jekyll-Blog模板的使用教程"
 date:   2017-01-11 12:07:14
 categories: [website]
 ---
-1.下载博客模板：打开
+1.下载jekyll博客模板（包含[jekyll教程](https://github.com/cofire/cofire.github.io/blob/master/Jekyll-教程-v1.0.pdf "jekyll教程")）：
 ```
 https://github.com/cofire/cofire.github.io
 ```
