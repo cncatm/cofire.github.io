@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Jekyll-Blog模板的使用教程"
-date:   2017-01-11 12:07:14
+date:   2017-01-11 12:07:14 +1000
 categories: [website]
 ---
 1.下载jekyll博客模板（包含[jekyll教程](https://raw.githubusercontent.com/cofire/cofire.github.io/master/Jekyll-%E6%95%99%E7%A8%8B-v1.0.pdf "jekyll教程")）：
