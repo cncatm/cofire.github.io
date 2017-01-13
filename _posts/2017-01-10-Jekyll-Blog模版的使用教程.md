@@ -4,11 +4,7 @@ title:  "Jekyll-Blog模板的使用教程"
 date:   2017-01-11 12:07:14
 categories: [website]
 ---
-1.下载jekyll博客模板（包含[jekyll教程](https://raw.githubusercontent.com/cofire/cofire.github.io/master/source/Jekyll-%E6%95%99%E7%A8%8B-v1.0.pdf "jekyll教程")）：
-```
-https://github.com/cofire/cofire.github.io
-```
-或[模版下载](https://github.com/cofire/cofire.github.io "模版下载")。
+1.下载jekyll博客模板（包含[jekyll教程](https://raw.githubusercontent.com/cofire/cofire.github.io/master/source/Jekyll-%E6%95%99%E7%A8%8B-v1.0.pdf "jekyll教程")）：打开```https://github.com/cofire/cofire.github.io```，在source文件夹下或点击[模版下载](https://raw.githubusercontent.com/cofire/cofire.github.io/master/source/Jekyll.rar "模版下载")。
 
 2.注册github：```https://github.com/```或[GIT官网](https://github.com/ "Git官网")。
 
