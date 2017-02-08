@@ -1,9 +1,9 @@
-title: 一条会飞的鱼...
-description: 我的个人博客
-author: NoFly
-github: https://github.com/cofire
-about: 昔日寒山问拾得：世间谤我、欺我、辱我、笑我、轻我、贱我、恶我、骗我，如何处治？拾得云：只是忍他、让他、由他、避他、耐他、敬他、不要理他，再待几年，你且看他。
-disqus_shortname: 一条会飞的鱼...
+title: Stack Problems
+description: My Personal Stack Problems
+author: Agus Makmun
+github: https://github.com/agusmakmun
+about: I am freelance developer. Currently doing more in backend, actually in Python and Django.
+disqus_shortname: stackproblems
 google_analytics: UA-XXXXXXXX-Y
 
 enableTags: true
@@ -20,34 +20,32 @@ social:
     - icon: fa-skype
       link: "#"
     - icon: fa-twitter
-      link: "#"
+      link: "https://twitter.com/agusmakmun6"
     - icon: fa-linkedin
       link: "#"
     - icon: fa-stack-exchange
       link: "#"
 
 share:
-  twitter_username: cofire
+  twitter_username: agusmakmun6
   fb_appid: 1749788565247320
 
 urls:
     - text: About Me
       url: /about/
+    - text: Projects
+      url: /projects/
     - text: Github
-      url: https://github.com/cofire
-    - text: navSite
-      url: /navSite/
-    - text: profile
-      url: /navSite/introduction/liying.html
+      url: https://github.com/agusmakmun
     - text: XML Feed
       url: /feed.xml
 
-url: "http://nofly.cc"
+url: "https://agusmakmun.github.io"
 baseurl: ""
 paginate: 20
 per_page: 20
 paginate_path: "/page:num/"
 markdown: kramdown
 gems:
-  - nofly-paginate
-  - nofly-gist
+  - jekyll-paginate
+  - jekyll-gist

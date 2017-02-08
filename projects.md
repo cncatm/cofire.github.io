@@ -4,4 +4,4 @@ title: Projects
 permalink: /projects/
 ---
 
-到目前为止，做过的一些项目。
+Few of my projects. Currently doing more in backend, actually in Python and Django.
