@@ -1,0 +1,53 @@
+title: 一条会飞的鱼...
+description: 我的个人博客
+author: NoFly
+github: https://github.com/cofire
+about: 昔日寒山问拾得：世间谤我、欺我、辱我、笑我、轻我、贱我、恶我、骗我，如何处治？拾得云：只是忍他、让他、由他、避他、耐他、敬他、不要理他，再待几年，你且看他。
+disqus_shortname: 一条会飞的鱼...
+google_analytics: UA-XXXXXXXX-Y
+
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    - icon: fa-facebook
+      link: "#"
+    - icon: fa-skype
+      link: "#"
+    - icon: fa-twitter
+      link: "#"
+    - icon: fa-linkedin
+      link: "#"
+    - icon: fa-stack-exchange
+      link: "#"
+
+share:
+  twitter_username: cofire
+  fb_appid: 1749788565247320
+
+urls:
+    - text: About Me
+      url: /about/
+    - text: Github
+      url: https://github.com/cofire
+    - text: navSite
+      url: /navSite/
+    - text: profile
+      url: /navSite/introduction/liying.html
+    - text: XML Feed
+      url: /feed.xml
+
+url: "http://nofly.cc"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page:num/"
+markdown: kramdown
+gems:
+  - nofly-paginate
+  - nofly-gist
