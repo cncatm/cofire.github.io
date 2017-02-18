@@ -47,3 +47,12 @@ categories: [website]
 14.一个博客网站就完成了。成品如下：
 
 ![网站成品](https://raw.githubusercontent.com/cofire/cofire.github.io/master/img/website/1/1.png "网站成品")
+
+15、使用GitHub页面的限制
+GitHub Pages sites are subject to the following usage limits:
+
+>GitHub Pages source repositories have a recommended limit of 1GB .Published GitHub Pages sites may be no larger than 1 GB.
+
+>GitHub Pages sites have a soft bandwidth limit of 100GB per month.
+
+>GitHub Pages sites have a soft limit of 10 builds per hour.
