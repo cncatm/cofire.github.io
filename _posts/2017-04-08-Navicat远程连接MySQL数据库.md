@@ -13,15 +13,15 @@ Mysql为了安全性，在默认情况下用户只允许在本地登录，可是
 
 在本机先使用root用户登录mysql： mysql -u root -p"youpassword" 进行授权操作：
 
-``
+```
 mysql>GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'youpassword' WITH GRANT OPTION;
-``
+```
 
 重载授权表：
 
-``
+```
 mysql>FLUSH PRIVILEGES;
-``
+```
 
 退出mysql数据库：
 
