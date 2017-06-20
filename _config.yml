@@ -37,8 +37,8 @@ urls:
       url: https://github.com/cofire
     - text: navSite
       url: /navSite/
-    - text: profile
-      url: /navSite/introduction/liying.html
+    - text: markdown
+      url: /mahua/
     - text: XML Feed
       url: /feed.xml
 
