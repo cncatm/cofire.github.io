@@ -1,0 +1,93 @@
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <title>BoJSON测试页面</title>
+    <link href="http://cdn.staticfile.org/twitter-bootstrap/3.0.3/css/bootstrap.min.css"
+    rel="stylesheet">
+    <style type="text/css" media="all">
+        .navbar {
+            border-radius: 0px;
+        }
+        .container.nav-container{
+            text-align:center;
+            margin:0 auto;
+        }
+        .nav-container iframe{
+            vertical-align: middle;
+        }
+        .container textarea{
+            width:100%;
+            height:100%;
+        }
+        .tmpl-helper-con{
+            margin-bottom:10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar navbar-inverse" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">BoJSON</a>
+            </div>
+            <div class="container nav-container">
+                <form class="navbar-form" role="search">
+                    <button type="button" class="btn btn-success" id="parseBtn" >Generate</button>
+                    <a target="_blank" class="btn btn-primary btn-sm" href="https://github.com/jserme/BoJSON/#bojson">Help</a>
+                    <button type="button" class="btn btn-default btn-sm" id="resetBtn">Reset</button>
+                    <iframe
+                        src="http://ghbtns.com/github-btn.html?user=jserme&repo=BoJSON&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="131" height="20"></iframe>
+                </form>
+            </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 tmpl-helper-con">
+                <!--
+                <button title="循环输出" type="button" class="btn btn-primary btn-sm tmpl-helper">{{repeat}}</button>
+                <button type="button" class="btn btn-primary btn-sm tmpl-helper">{{repeat}}</button>
+                <button type="button" class="btn btn-primary btn-sm tmpl-helper">{{repeat}}</button>
+                <button type="button" class="btn btn-primary btn-sm tmpl-helper">{{repeat}}</button>
+                <button type="button" class="btn btn-primary btn-sm tmpl-helper">{{repeat}}</button>
+                <button type="button" class="btn btn-primary btn-sm tmpl-helper">{{repeat}}</button>
+                <button type="button" class="btn btn-primary btn-sm tmpl-helper">{{repeat}}</button>
+                <button type="button" class="btn btn-primary btn-sm tmpl-helper">{{repeat}}</button>
+                <button type="button" class="btn btn-primary btn-sm tmpl-helper">{{repeat}}</button>
+                <button type="button" class="btn btn-primary btn-sm tmpl-helper">{{repeat}}</button>
+                <button type="button" class="btn btn-primary btn-sm tmpl-helper">{{repeat}}</button>
+                <button type="button" class="btn btn-primary btn-sm tmpl-helper">{{repeat}}</button>
+                <button type="button" class="btn btn-primary btn-sm tmpl-helper">{{repeat}}</button>
+                <button type="button" class="btn btn-primary btn-sm tmpl-helper">{{repeat}}</button>
+                <button type="button" class="btn btn-primary btn-sm tmpl-helper">{{repeat}}</button>
+                -->
+            </div>
+            <div class="col-md-6">
+                <textarea id="tmpl" class="form-control"></textarea>
+            </div>
+            <div class="col-md-6">
+                <textarea id="rst" class="form-control"></textarea>
+            </div>
+        </div>
+    </div>
+    <script src="http://cdn.staticfile.org/jquery/2.0.3/jquery.min.js" type="text/javascript"></script>
+    <script src="http://cdn.staticfile.org/twitter-bootstrap/3.0.3/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="http://mockjs.com/dist/mock.js" type="text/javascript"></script>
+    <script src="bojson.js" type="text/javascript"></script>
+    <script src="bojson.helpers.js" type="text/javascript"></script>
+    <script src="bojson.site.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        (function() {
+         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+         ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'hm.baidu.com/h.js?f628d86243daf05c564aa17f55e27b02';
+         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+       })();
+    </script>
+</body>
+</html>
