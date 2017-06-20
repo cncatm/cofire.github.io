@@ -38,7 +38,7 @@ urls:
     - text: navSite
       url: /navSite/
     - text: markdown
-      url: /mahua/
+      url: /onlinemarkdown/editor.md/index.html
     - text: XML Feed
       url: /feed.xml
 
