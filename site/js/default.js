@@ -1,15 +1,17 @@
-$(document).ready(function(){
-    alert("1");
-    $.getJSON("./urlJson/site.json",function(date){
-        var jsontip = $("#jsonTip"); 
-        var strHtml = "123";//存储数据的变量 
-        jsontip.empty();//清空内容 
-        $.each(data,function(infoIndex,info){ 
-            strHtml += "姓名："+info["name"]+"<br>"; 
-            strHtml += "性别："+info["sex"]+"<br>"; 
-            strHtml += "<hr>" 
-            alert(strHtml);
+$(function(){ 
+    $("#btn").click(function(){ 
+        $.getJSON("js/userinfo.json",function(data){ 
+            var $jsontip = $("#jsonTip"); 
+            var strHtml = "123";//存储数据的变量 
+            $jsontip.empty();//清空内容 
+            $.each(data,function(infoIndex,info){ 
+                strHtml += "姓名："+info["name"]+"<br>"; 
+                strHtml += "性别："+info["sex"]+"<br>"; 
+                strHtml += "邮箱："+info["email"]+"<br>"; 
+                strHtml += "<hr>" 
+            }) 
+            $jsontip.html(strHtml);//显示处理后的数据 
         }) 
-        jsontip.html(strHtml);//显示处理后的数据 
-    });
-});
+    }) 
+
+})
