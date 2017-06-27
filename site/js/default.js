@@ -8,6 +8,7 @@ $(document).ready(function(){
             strHtml += "姓名："+info["name"]+"<br>"; 
             strHtml += "性别："+info["sex"]+"<br>"; 
             strHtml += "<hr>" 
+            alert(strHtml);
         }) 
         jsontip.html(strHtml);//显示处理后的数据 
     });
