@@ -1,1 +1,3 @@
 strHtml += "<a href='"+info["url"]+"'>"++info["titile"]+"</a>"
+strHtml += "<a href='www.baidu.com'>百度"+"</a>"
+http://nofly.cc/site/index.html
