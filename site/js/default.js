@@ -1,5 +1,5 @@
 $(function(){ 
-    $.getJSON("urlJson/userinfo.json",function(data){ 
+    $.getJSON("urlJson/site.json",function(data){ 
         var $jsontip = $("#jsonTip"); 
         var strHtml = "123";//存储数据的变量 
         $jsontip.empty();//清空内容 
