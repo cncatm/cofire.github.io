@@ -1,6 +1,6 @@
 $(document).ready(function(){
     alert("1");
-    $.getJSON("./js/site.json",function(date){
+    $.getJSON("./urlJson/site.json",function(date){
         var jsontip = $("#jsonTip"); 
         var strHtml = "123";//存储数据的变量 
         jsontip.empty();//清空内容 
