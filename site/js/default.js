@@ -4,7 +4,7 @@ $(function(){
         var strHtml = "";//存储数据的变量 
         $jsontip.empty();//清空内容 
         $.each(data,function(infoIndex,info){ 
-            strHtml += "<a href='"+info["titile"]+"'>"+info["titile"]+"</a>"
+            strHtml += "<a href='"+info["url"]+"'>"+info["titile"]+"</a>"
             strHtml += "<hr>" 
         }) 
         $jsontip.html(strHtml);//显示处理后的数据 
